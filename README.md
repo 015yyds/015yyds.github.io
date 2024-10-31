@@ -3,4 +3,4 @@
 > 图一乐
 
 HELLO docsify
-[>>目录](guide)
+[>>目录](/guide)
