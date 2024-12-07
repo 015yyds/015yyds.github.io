@@ -3,15 +3,19 @@
 
 * 数据库
 
-  - [SQL](sql/README.md)
+  - [SQL](/sql/README.md)
 
 * Python
 
-  - [Python](python/README.md)
+  - [Python](/python/README.md)
 
 * java
 
-  - [java](java/README.md)
+  - [java](/java/README.md)
 
 * Linux
-  - [Linux](./linux/README.md)
+
+  - [Linux](/linux/README.md)
+
+* JavaScript
+  - [JavaScript 基础](/JavaScript/js.md)
