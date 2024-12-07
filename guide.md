@@ -1,17 +1,21 @@
-# 目录
+## Sayonara 个人文档类博客
 
-## 编程学习网站
+[cinwell website](/wed/index.html ":include :type=iframe width=100% height=380px frameborder=0 scrolling=no")
 
-- [网站推荐](./wed/README.md)
+## C#相关
 
-## 语言相关
-
-- [SQL 基础](sql/README.md)
-- [Python 基础](python/README.md)
-- [java 基础](java/README.md)
+- [.net 相关](/Csharp/README.md)
+- [C#进阶](/Csharp/README.md)
 
 ## 命令相关
 
-- [linux](linux/README.md)
+- [linux](/linux/README.md)
+
+## 其他语言相关
+
+- [JavaScript 基础](/JavaScript/js.md)
+- [Python 基础](/python/README.md)
+- [java 基础](/java/README.md)
+- [SQL 基础](/sql/README.md)
 
 [<<返回首页](/)

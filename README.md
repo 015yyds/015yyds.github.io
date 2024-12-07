@@ -1,6 +1,5 @@
 # 个人笔记
 
-> 图一乐
+> 🚀If you're going through hell, keep going.
 
-HELLO docsify
 [>>目录](guide)

@@ -1,1 +1,2 @@
 - [目录](guide)
+- [New 博客](https://sayonara.netlify.app/)
