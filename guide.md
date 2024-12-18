@@ -17,5 +17,3 @@
 - [Python 基础](/python/README.md)
 - [java 基础](/java/README.md)
 - [SQL 基础](/sql/README.md)
-
-[<<返回首页](/)

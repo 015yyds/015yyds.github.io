@@ -8,6 +8,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="/stylecss.css">
 </head>
 
 <body>
@@ -25,6 +26,7 @@
           loadNavbar: true,
           coverpage: "cover.md",
           onlyCover: true,
+          //搜索
           search: {
             placeholder: {
               '/': '搜索'
@@ -32,7 +34,6 @@
             noData: {
               '/': '找不到结果',
             },
-
             search: [
               '/Csharp/',
               '/java/',
@@ -42,28 +43,34 @@
               '/JavaScript/',
             ],
           },
+          //复制代码块
           copyCode: {
             buttonText: '<svg t="1733476195963" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6896" width="30" height="30"><path d="M866.133333 919.466667h-405.333333c-29.866667 0-53.333333-23.466667-53.333333-53.333334v-618.666666c0-29.866667 23.466667-53.333333 53.333333-53.333334h405.333333c29.866667 0 53.333333 23.466667 53.333334 53.333334v618.666666c0 29.866667-23.466667 53.333333-53.333334 53.333334z" fill="#69C0FF" p-id="6897"></path><path d="M770.133333 428.8h-213.333333c-12.8 0-21.333333-8.533333-21.333333-21.333333s8.533333-21.333333 21.333333-21.333334h213.333333c12.8 0 21.333333 8.533333 21.333334 21.333334s-10.666667 21.333333-21.333334 21.333333zM770.133333 556.8h-213.333333c-12.8 0-21.333333-8.533333-21.333333-21.333333s8.533333-21.333333 21.333333-21.333334h213.333333c12.8 0 21.333333 8.533333 21.333334 21.333334s-10.666667 21.333333-21.333334 21.333333zM770.133333 684.8h-213.333333c-12.8 0-21.333333-8.533333-21.333333-21.333333s8.533333-21.333333 21.333333-21.333334h213.333333c12.8 0 21.333333 8.533333 21.333334 21.333334s-10.666667 21.333333-21.333334 21.333333z" fill="#FFFFFF" p-id="6898"></path><path d="M567.466667 834.133333h-405.333334c-29.866667 0-53.333333-23.466667-53.333333-53.333333v-618.666667c0-29.866667 23.466667-53.333333 53.333333-53.333333h405.333334c29.866667 0 53.333333 23.466667 53.333333 53.333333v618.666667c0 29.866667-23.466667 53.333333-53.333333 53.333333z" fill="#1890FF" p-id="6899"></path><path d="M471.466667 343.466667h-213.333334c-12.8 0-21.333333-8.533333-21.333333-21.333334s8.533333-21.333333 21.333333-21.333333h213.333334c12.8 0 21.333333 8.533333 21.333333 21.333333s-10.666667 21.333333-21.333333 21.333334zM471.466667 471.466667h-213.333334c-12.8 0-21.333333-8.533333-21.333333-21.333334s8.533333-21.333333 21.333333-21.333333h213.333334c12.8 0 21.333333 8.533333 21.333333 21.333333s-10.666667 21.333333-21.333333 21.333334zM471.466667 599.466667h-213.333334c-12.8 0-21.333333-8.533333-21.333333-21.333334s8.533333-21.333333 21.333333-21.333333h213.333334c12.8 0 21.333333 8.533333 21.333333 21.333333s-10.666667 21.333333-21.333333 21.333334z" fill="#FFFFFF" p-id="6900"></path></svg>',
             errorText: 'Error',
             successText: '(◍•ᴗ•◍)❤复制成功',
           },
+          //评论
+          giscus: {
+            repo: "015yyds/015yyds.github.io",
+            repoId: "R_kgDONZ9Dpg",
+            category: "Announcements",
+            categoryId: "DIC_kwDONZ9Dps4ClA3k",
+            //discussion
+            mapping: "pathname",
+            reactionsEnabled: "1",
+            strict: "0",
+            emitMetadata: "0",
+            inputPosition: "top",
+            theme: "light",
+            lang: "zh-CN",
+            //懒加载
+            loading: "lazy"
+          },
         }
       </script>
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
-      <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-      <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-      <script>
-        const gitalk = new Gitalk({
-          clientID: 'Ov23liNY9iPXTVqNbjEj',
-          clientSecret: 'a12920bf753a7f95b26c4e7d9b46646107ebbf27',
-          repo: 'https://github.com/015yyds',
-          owner: '015yyds',
-          admin: ['015yyds'],
-          id: location.pathname,
-        });
-        gitalk.render('gitalk-container');
-      </script>
+      <script src="/giscus.js"></script>
       <script src="/web/Sayonara.js"></script>
+      <script src="//cdn.jsdelivr.net/gh/LIGMATV/docsify-dark-switcher@latest/docsify-dark-switcher.js"></script>
       <script src="https://unpkg.com/docsify-copy-code"></script>
       <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
       <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
