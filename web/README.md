@@ -22,6 +22,8 @@
 
 ## 工具类
 
+- https://zh.ifixit.com/# (维修大全)
+
 - https://haiyong.site/moyu/ (游戏大全)
 
 - https://zh.recompressor.com/ (图像优化)
